@@ -2,7 +2,7 @@ const express = require('express');
 const apiroutes = express.Router();
 require("dotenv").config();
 const apicall = require("./funcai.")
-// require("dotenv").config();
+
 apiroutes.post("/ai", async (req, res) => {
   const userPrompt = req.body.userPrompt;
   try {

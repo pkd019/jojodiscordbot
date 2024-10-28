@@ -9,6 +9,7 @@ app.use(express.json());
 
 
 
+const port =  process.env.PORT || 4000;
 
 app.use("/chat",routes);
 
@@ -18,7 +19,7 @@ client.login(process.env.DISCORD_TOKEN).then(() => {
 
 
 
-app.listen(4000, () => {
+app.listen(port, () => {
   console.log(process.env.API_KEY);
   console.log("app run at 4000");
 });
