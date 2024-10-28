@@ -20,6 +20,6 @@ client.login(process.env.DISCORD_TOKEN).then(() => {
 
 
 app.listen(port, () => {
-  console.log(process.env.API_KEY);
+  
   console.log("app run at 4000");
 });
