@@ -20,7 +20,7 @@ client.on('messageCreate', async (message) => {
     if (response) {
 
       await message.channel.send(response); 
-      console.log(response);
+    
     } else {
       console.log("No response received from apicall");
     }

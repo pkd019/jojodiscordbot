@@ -21,5 +21,5 @@ client.login(process.env.DISCORD_TOKEN).then(() => {
 
 app.listen(port, () => {
   
-  console.log("app run at 4000");
+  console.log(`app run at ${port}`);
 });
